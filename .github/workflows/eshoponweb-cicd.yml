@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 # Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-eshoponweb  # Ensure correct resource group
-  LOCATION: eastus  # Azure location
+  LOCATION: westus  # Azure location
   TEMPLATE-FILE: infra/webapp.bicep  # Path to your Bicep template
   SUBSCRIPTION-ID: bd70f87e-e3de-4632-b1a6-d77630884ecf  # Your Azure Subscription ID
   WEBAPP-NAME: eshoponweb-webapp51677969  # Ensure unique name for web app
